@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/postImageList"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/add_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postTitleList"
+            android:padding="10dp"
+            android:text="Post Title"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postTextList"
+            android:padding="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp"
+            android:text="Post Description here" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeStampList"
+            android:padding="5dp"
+            android:text="Date Created:"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
